@@ -16,5 +16,5 @@ $ yarn build
 __NOTA:__ Para configurar el proyecto en modo de producción en la aplicación backend copia los archivos de la carpeta de distribución a la carpta __public__ y configura la ruta del proyecto.
 
 ## 🛠️ Stack
-- [**NODE**]([https://www.php.net/](https://nodejs.org/en))
-- [**POSTGRES**](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
+- [**NODE**](https://nodejs.org/en)
+- [**YARN**](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
