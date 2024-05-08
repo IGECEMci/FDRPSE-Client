@@ -1,7 +1,7 @@
 # React + TypeScript
 
 
-## Configuración inicial
+## 🚀 Configuración inicial
 
 Configura las variables de entorno del archivo __.en.example__ y renombra el archivo con el nombre __.env__
 
@@ -15,6 +15,6 @@ $ yarn build
 ```
 __NOTA:__ Para configurar el proyecto en modo de producción en la aplicación backend copia los archivos de la carpeta de distribución a la carpta __public__ y configura la ruta del proyecto.
 
-## Stack
-* NodeJs
-* Yarn
+## 🛠️ Stack
+- [**NODE**]([https://www.php.net/](https://nodejs.org/en))
+- [**POSTGRES**](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable)
