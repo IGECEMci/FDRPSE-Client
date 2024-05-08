@@ -1,5 +1,9 @@
 import { QuestionsInsideSection } from '../../infraestructure/http/dto/questions/QuestionsBySectionResponse';
 
+/**
+ * Los helper son funciones que encapsulan lógica que es independiente y puede ser usada en diferentes puntos de la aplicación
+ */
+
 import * as Yup from 'yup';
 
 export interface QuestionsField {

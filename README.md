@@ -3,6 +3,11 @@
 
 ## 🚀 Configuración inicial
 
+Instala las dependencías de la aplicación
+```bash
+$ yarn install
+```
+
 Configura las variables de entorno del archivo __.en.example__ y renombra el archivo con el nombre __.env__
 
 Ejecuta el comando para inical el proyecto en modo desarrollo 

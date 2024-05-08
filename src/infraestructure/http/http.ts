@@ -1,7 +1,10 @@
 import { isAxiosError } from 'axios';
 import { apiInstance } from './fetch';
 
-
+/**
+ * Son funciones que usan las funciondes del archivo fetch que permiten enviar y recibir peticiones del servidor y que son generadas a partir de 
+ * cada metodo http ya se GET, POST, DOWNLOAD, etc.
+ */
 const DEFAULT_ERROR = 'Parece que hubo un error -  Intenta mas tarde';
 
 const get = async <T>(url: string): Promise<T> => {

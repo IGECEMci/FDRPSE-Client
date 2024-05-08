@@ -1,4 +1,7 @@
 import * as Yup from 'yup';
+/**
+ * Las validaciones son las encargadas de manejar los erroes y restriciones en los formularios
+ */
 
 export const loginValidation = () => ({
     username: Yup.string().required('El campo de usuario es obligatorio'),

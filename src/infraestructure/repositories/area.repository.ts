@@ -3,6 +3,9 @@ import { AreasResponseDto } from '../http/dto/areas';
 import { Area } from '../../domain/models';
 
 
+/**
+ * Los repositorios son encargados de interactuar con el servidor y generar peticiones además de parsear la información que recibe.
+ */
 export const areaRepository = {
 
     getAreas: async (): Promise<Array<Area> | string> => {

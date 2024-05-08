@@ -3,6 +3,10 @@ import { Button, useDisclosure } from '@nextui-org/react';
 import { LoginForm } from '../../../infraestructure/components/auth';
 import { Modal } from '../../../infraestructure/components/ui/Modal';
 
+
+/**
+ * Las páginas son la entrada principal de cada ruta.
+ */
 export const LoginPage = () => {
 
   const { isOpen, onOpen, onOpenChange } = useDisclosure();

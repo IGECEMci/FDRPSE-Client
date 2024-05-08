@@ -2,7 +2,10 @@ import { ReactNode, useReducer } from 'react';
 import { AreaContext, areaReducer } from './';
 import { Area  } from '../../../domain/models';
 
-
+/**
+ * El provider es el proovedor del estado en una aplicación de manera gobal y puede ser accedido en componentes que sean
+ * hijos de este componente.
+ */
 interface Props {
     children: ReactNode | Array<ReactNode>
 }

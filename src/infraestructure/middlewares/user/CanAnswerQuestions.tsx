@@ -3,7 +3,9 @@ import { Navigate } from 'react-router-dom';
 import { LoadingScreen } from '../../components/ui';
 import { guideService } from '../../../domain/services/guide.service';
 
-
+/**
+ * Los middlewares validan la información que se recibe del servidor, condicionan y validan la información que recibe.
+ */
 interface Props {
     children: ReactNode | Array<ReactNode>
 }

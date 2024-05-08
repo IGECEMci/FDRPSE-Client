@@ -1,3 +1,7 @@
+/**
+ * El local storage al igual que fetch son abstraciones que termiten encapsular la lógica para poder almacenar información en el localStorage
+ */
+
 const get = (key: string): string | null => {
     const item = localStorage.getItem(key) ?? "";
     

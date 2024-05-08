@@ -1,6 +1,10 @@
 import axios from 'axios';
 import { storage } from '../local-storage/localStorage';
 
+/**
+ * La configuración esta generada para poder hacer peticiones al servidor y es creado para poder tener una abstración para que en la implementación no depende de la librería axios y pueda ser cambiada sin modificar logica, componentes, etc.
+ */
+
 export const apiInstance = axios.create({
     baseURL: import.meta.env.VITE_BACKEND_URL,
     responseType: 'json',

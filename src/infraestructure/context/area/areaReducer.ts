@@ -1,6 +1,9 @@
 import { AreaState } from './';
 import { Area } from '../../../domain/models';
 
+/**
+ * Los reduces son funciones que te permiten modificar estados globales de forma local
+ */
 export type AreaActionType =
     | { type: 'AREA - Get areas', payload: Array<Area> }
     | { type: 'AREA - Get subareas by areas', payload: Array<Area> }

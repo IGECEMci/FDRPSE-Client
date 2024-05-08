@@ -7,6 +7,10 @@ import { InitialScreen } from './infraestructure/components/ui';
 import { ErrorBoundary } from 'react-error-boundary';
 import { ErrorBoundaryPage } from './app/pages/error/ErrorBoundaryPage';
 
+/**
+ * La función valida la sesión del usuario y muestra la pantalla de carga, además de mostrar una pantalla de error si es que algo salio mal
+ * durante la ejecución.
+ */
 function App() {
 
   const { startRevalidateSession, loading } = authService();

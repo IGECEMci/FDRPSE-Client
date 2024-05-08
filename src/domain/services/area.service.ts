@@ -2,7 +2,10 @@ import { useContext } from 'react';
 import { AreaContext } from '../../infraestructure/context/area';
 import { areaRepository } from '../../infraestructure/repositories/area.repository';
 
-
+/**
+ * Los servicios son funciones que acceden al estado globla(Contexto) y son principalmente usados para conectar las peticiones con 
+ * la logica de la librería(React).
+ */
 export const areaService = () => {
 
     const { areas, subareas, dispatch} = useContext(AreaContext);

@@ -1,3 +1,7 @@
+/**
+ * Las alertas se encuentran en la infraestructura porque no dependen de la lógica por lo que se genera una abstración para que la implementación
+ * no dependa de la funcion de la aplicación.
+ */
 import { enqueueSnackbar } from 'notistack';
 
 
